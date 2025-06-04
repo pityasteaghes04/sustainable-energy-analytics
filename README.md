@@ -4,7 +4,7 @@ This project explores how solar panel energy output varies by location and devic
 
 ## What's Included
 
-- `Sustainable Energy Analytics with Python.ipynb`: The main analysis notebook (coming soon!)
+- `Sustainable Energy Analytics with Python.ipynb`: A complete Jupyter notebook that analyzes solar panel output, simulates daily sunlight hours, and compares how many solar panels are needed to charge different smartphones.
 - `Sustainable_Energy_Analytics_Presentation.pptx`: Final presentation slides
 - `requirements.txt`: Required Python packages
 
@@ -24,6 +24,7 @@ This project explores how solar panel energy output varies by location and devic
 ## How to Run
 
 Clone the repo and install dependencies:
+
 ```bash
 git clone https://github.com/pityasteaghes04/sustainable-energy-analytics.git
 cd sustainable-energy-analytics
