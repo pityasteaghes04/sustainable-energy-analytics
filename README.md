@@ -1,4 +1,4 @@
-# Sustainable Energy Analytics with Python
+# Renewable Energy Data Analyst
 
 This project analyzes how solar panel energy output varies by location and phone battery capacity using real-world data and Python. Built as a final project for a renewable energy and software integration course, it demonstrates the use of data analysis, visualization, and API integration to answer an applied engineering question:  
 
