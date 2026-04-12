@@ -3,7 +3,7 @@
 This system transforms geographic data into a precise engineering tool for solar planning. By bridging the gap between raw data and real-world utility, it provides high-fidelity energy estimations for informed environmental decision-making.
 
 ## Project Overview
-This project analyzes how solar panel energy output varies by location and phone battery capacity using real-world data and Python. 
+This project analyzes how solar panel energy output varies by location and phone battery capacity using real-world data. 
 
 ## Key Technical Features
 - **Live API Integration:** Fetches the latest 365 days of solar radiation data (2025–2026) for real-time accuracy via the Visual Crossing API.
@@ -13,7 +13,7 @@ This project analyzes how solar panel energy output varies by location and phone
 ## Summary of Findings
 - **Battery Impact:** Larger battery phones require significantly more energy and more solar panels than smaller ones.
 - **Location Variation:** In Eritrea, as little as two 10W panels can fully charge a phone on most days. In Seattle, more panels are required due to limited seasonal sunlight.
-- **Data Fidelity:** The Python tool has been upgraded to fetch the most recent 365 days of live 2026 data to ensure analysis remains dynamic.
+- **Data Fidelity:** The Agentic workflow has been upgraded to fetch the most recent 365 days of live 2026 data to ensure analysis remains dynamic.
 
 ## Skills Demonstrated
 - **Python:** Pandas, NumPy, Matplotlib, Geopy
