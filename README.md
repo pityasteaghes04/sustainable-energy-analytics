@@ -37,6 +37,7 @@ This project analyzes how solar panel energy output varies by location and mobil
 
 Bash
 pip install -r requirements.txt
+
 3. Launch the Analysis:
 Open Sustainable Energy Analytics with Python.ipynb in Jupyter or VS Code.
 
