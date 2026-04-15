@@ -39,4 +39,3 @@ This project analyzes how solar panel energy output varies by location and mobil
    Open `Sustainable Energy Analytics with Python.ipynb` in Jupyter or VS Code.
 4. **API Access:**
    When prompted for an API key, press **Enter** to use the built-in demo fallback key.
-```
