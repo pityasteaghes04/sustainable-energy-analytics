@@ -33,12 +33,12 @@ This project analyzes how solar panel energy output varies by location and mobil
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/pityasteaghes04/sustainable-energy-analytics.git](https://github.com/pityasteaghes04/sustainable-energy-analytics.git)
-Install dependencies:
+2. Install dependencies:
 
 Bash
 pip install -r requirements.txt
-Launch the Analysis:
+3. Launch the Analysis:
 Open Sustainable Energy Analytics with Python.ipynb in Jupyter or VS Code.
 
-API Access:
+4. API Access:
 When prompted for an API key, press Enter to use the built-in demo fallback key.
