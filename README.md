@@ -1,8 +1,3 @@
-Here is the raw Markdown code for your **README.md**. 
-
-You can copy this entire block, go to your GitHub repository, click the **pencil icon** to edit your `README.md`, and paste this over the old text.
-
-```markdown
 # Renewable Energy Data Analyst: Solar Capacity Estimator
 
 This system transforms geographic data into a precise engineering tool for solar planning. By bridging the gap between raw data and real-world utility, it provides high-fidelity energy estimations for informed environmental decision-making.
