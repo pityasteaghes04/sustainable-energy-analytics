@@ -9,6 +9,9 @@ This project analyzes how solar panel energy output varies by location and mobil
 * **Weather & Solar Data:** [Visual Crossing Weather API](https://www.visualcrossing.com/) (Historical Solar Radiation Flux).
 * **Hardware Specifications:** Technical battery profiles for modern devices (e.g., iPhone 15, Samsung S25 Ultra) measured in Watt-hours (Wh).
 
+## Project Assets
+* **Technical Presentation:** [View the SolarAnywhere Analysis PDF](./SolarAnywhere_Presentation.pdf) — A deep dive into the engineering logic and data visualizations used in this project.
+
 ## Key Technical Features
 * **Live API Integration:** Fetches the latest 365 days of solar radiation data (2025–2026) for real-time accuracy.
 * **Secure Authentication:** Implemented a "Fallback Logic" system that allows for seamless user demos while protecting private API credentials.
@@ -30,12 +33,12 @@ This project analyzes how solar panel energy output varies by location and mobil
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/pityasteaghes04/sustainable-energy-analytics.git](https://github.com/pityasteaghes04/sustainable-energy-analytics.git)
-   ```
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Launch the Analysis:**
-   Open `Sustainable Energy Analytics with Python.ipynb` in Jupyter or VS Code.
-4. **API Access:**
-   When prompted for an API key, press **Enter** to use the built-in demo fallback key.
+Install dependencies:
+
+Bash
+pip install -r requirements.txt
+Launch the Analysis:
+Open Sustainable Energy Analytics with Python.ipynb in Jupyter or VS Code.
+
+API Access:
+When prompted for an API key, press Enter to use the built-in demo fallback key.
