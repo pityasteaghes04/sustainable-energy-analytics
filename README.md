@@ -40,9 +40,3 @@ This project analyzes how solar panel energy output varies by location and mobil
 4. **API Access:**
    When prompted for an API key, press **Enter** to use the built-in demo fallback key.
 ```
-
----
-
-### GitHub Save Instructions:
-* **Commit message:** `Finalize README with technical specifications and data sourcing`
-* **Extended description:** `Updated project overview for professional tone, added explicit data source citations, and refined the 'How to Run' section with standardized bash commands.`
