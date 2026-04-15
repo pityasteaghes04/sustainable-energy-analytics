@@ -28,18 +28,17 @@ This project analyzes how solar panel energy output varies by location and mobil
     * **ICDF (Inverse Cumulative Distribution Function) Curves:** To calculate the probability of energy sufficiency on low-light days.
     * **Scatter Plots:** To correlate latitude with energy yield.
 * **Project Management:** Git/GitHub version control and API lifecycle management.
-
+---
 ## How to Run
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/pityasteaghes04/sustainable-energy-analytics.git](https://github.com/pityasteaghes04/sustainable-energy-analytics.git)
-2. Install dependencies:
-
-Bash
-pip install -r requirements.txt
-
-3. Launch the Analysis:
-Open Sustainable Energy Analytics with Python.ipynb in Jupyter or VS Code.
-
-4. API Access:
-When prompted for an API key, press Enter to use the built-in demo fallback key.
+   ```
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Launch the Analysis:**
+   Open `Sustainable Energy Analytics with Python.ipynb` in Jupyter or VS Code.
+4. **API Access:**
+   When prompted for an API key, press **Enter** to use the built-in demo fallback key.
