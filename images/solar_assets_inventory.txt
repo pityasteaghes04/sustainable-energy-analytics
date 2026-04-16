@@ -1,0 +1,16 @@
+Keep it very short. Copy and paste this into your `placeholder.txt` file to replace everything:
+
+**IMAGE ASSETS TO-DO LIST:**
+
+1. **radiation_comparison.png** *Solar radiation data for Eritrea vs. Seattle.*
+
+2. **battery_benchmarks.png** *Table of phone capacities (mAh) vs. energy needs.*
+
+3. **distribution_boxplot.png** *Box-and-whisker plot of panel requirements.* 
+
+4. **reliability_icdf.png** *ICDF graph showing % of year phone reaches 100%.* 
+
+[Image of cumulative distribution function graph]
+
+
+5. **agent_architecture.png** *Diagram of the AI Agent and API workflow.*
