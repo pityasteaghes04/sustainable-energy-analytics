@@ -15,5 +15,4 @@ RELIABILITY ASSETS INVENTORY:
 
 5. **agentic_workflow_data_sources.png**
    - [cite_start]Visual Crossings API and geospatial data ingestion architecture[cite: 91, 92].
-
 ---
