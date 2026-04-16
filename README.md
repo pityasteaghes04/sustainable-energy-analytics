@@ -49,7 +49,7 @@ To validate the algorithm’s reliability, this study compares two regions with 
     * **Box-and-Whisker Plots:** Utilized to visualize solar irradiance distribution and identify seasonal outliers beyond simple medians.
     * **ICDF (Inverse Cumulative Distribution Function) Curves:** Applied to calculate the probability of energy sufficiency on low-light days.
 * **Project Management:** Git/GitHub version control and Agile/Kanban lifecycle management.
-```
+
 ## How to Run
 1. **Clone the repository:**
    ```bash
