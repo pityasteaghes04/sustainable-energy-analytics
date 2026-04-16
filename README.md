@@ -20,14 +20,18 @@ To validate the algorithm’s reliability, this study compares two regions with 
 * **Technical Presentation:** [View the SolarAnywhere Analysis PDF](./SolarAnywhere_Presentation.pdf) — A deep dive into the engineering logic and data visualizations used in this project.
 
 ## Project Visualizations
+
 ### 365-Day Solar Radiation Trend (Seattle 2025-2026)
-![Solar Radiation](images/seattle_solar_radiation_2025_2026.jpg)
+![Solar Radiation](images/liveAPI-data.png)
+
 ### Reliability Analysis: ICDF Curve
-![ICDF Curve](images/icdf_solar_reliability_curve.png)
+![ICDF Curve](images/IDF%20Curve.png)
+
 ### Distribution of Solar Panels Needed (With Outliers)
-![Panel Distribution](images/solar_panel_distribution_with_outliers.png)
+![Panel Distribution](images/Bar%201-Distribution-Outliers.png)
+
 ### Hardware Requirements by Phone Model
-![Requirement Boxplot](images/solar_panel_requirement_by_phone_model.png)
+![Requirement Boxplot](images/Bar%202-Requirement-Model.png)
 
 ## Key Technical Features
 * **Live API Integration:** Fetches the latest 365 days of solar radiation data (**2025–2026**) for real-time accuracy.
