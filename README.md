@@ -14,7 +14,7 @@ To validate the algorithm’s reliability, this study compares two regions with 
 
 ## Data Sources
 * **Weather & Solar Data:** [Visual Crossing Weather API](https://www.visualcrossing.com/) (Historical Solar Radiation Flux).
-* **Hardware Specifications:** Technical battery profiles for modern devices (e.g., iPhone 16 Pro, Samsung S25 Ultra) measured in Watt-hours (Wh).
+* **Hardware Specifications:** Technical battery profiles for modern devices (e.g., iPhone 16 Pro at 3,582 mAh, Samsung S25 Ultra) measured in Watt-hours (Wh).
 
 ## Project Assets
 * **Technical Presentation:** [View the SolarAnywhere Analysis PDF](./SolarAnywhere_Presentation.pdf) — A deep dive into the engineering logic and data visualizations used in this project.
@@ -49,19 +49,18 @@ To validate the algorithm’s reliability, this study compares two regions with 
     * **Box-and-Whisker Plots:** Utilized to visualize solar irradiance distribution and identify seasonal outliers beyond simple medians.
     * **ICDF (Inverse Cumulative Distribution Function) Curves:** Applied to calculate the probability of energy sufficiency on low-light days.
 * **Project Management:** Git/GitHub version control and Agile/Kanban lifecycle management.
-
----
-
+```
 ## How to Run
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/pityasteaghes04/SolarAnywhere.git
+   git clone [https://github.com/pityasteaghes04/SolarAnywhere.git](https://github.com/pityasteaghes04/SolarAnywhere.git)
    ```
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 3. **Launch the Analysis:**
-   Open `SolarAnywhere_Analysis.ipynb` in Jupyter or VS Code.
+   Open `SolarAnywhere_PityasT.ipynb` in Jupyter or VS Code.
 4. **API Access:**
    When prompted for an API key, press **Enter** to use the built-in demo fallback key.
+```
