@@ -63,4 +63,3 @@ To validate the algorithm’s reliability, this study compares two regions with 
    Open `SolarAnywhere_PityasT.ipynb` in Jupyter or VS Code.
 4. **API Access:**
    When prompted for an API key, press **Enter** to use the built-in demo fallback key.
-```
