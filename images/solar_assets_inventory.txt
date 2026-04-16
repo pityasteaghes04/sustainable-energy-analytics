@@ -1,16 +1,19 @@
-Keep it very short. Copy and paste this into your `placeholder.txt` file to replace everything:
+---
+**RELIABILITY ASSETS INVENTORY:**
 
-**IMAGE ASSETS TO-DO LIST:**
+1. **battery_capacity_benchmarks.png**
+   - [cite_start]Table showing mAh storage for S25 Ultra vs. iPhone 15 Pro Max[cite: 8].
 
-1. **radiation_comparison.png** *Solar radiation data for Eritrea vs. Seattle.*
+2. **regional_radiation_logic.png**
+   - [cite_start]Seasonal W/m² comparison for Eritrea (High-ROI) vs. Seattle (Stress Test)[cite: 16, 34].
 
-2. **battery_benchmarks.png** *Table of phone capacities (mAh) vs. energy needs.*
+3. **panel_requirement_distribution.png**
+   - [cite_start]Box plots showing median panels needed while removing visual noise[cite: 46, 55].
 
-3. **distribution_boxplot.png** *Box-and-whisker plot of panel requirements.* 
+4. **charging_probability_icdf.png**
+   - [cite_start]Predictive curve showing the 90% success rate for 2 panels in Seattle[cite: 72, 80].
 
-4. **reliability_icdf.png** *ICDF graph showing % of year phone reaches 100%.* 
+5. **agentic_workflow_data_sources.png**
+   - [cite_start]Visual Crossings API and geospatial data ingestion architecture[cite: 91, 92].
 
-[Image of cumulative distribution function graph]
-
-
-5. **agent_architecture.png** *Diagram of the AI Agent and API workflow.*
+---
