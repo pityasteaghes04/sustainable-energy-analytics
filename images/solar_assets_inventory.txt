@@ -1,5 +1,5 @@
 ---
-**RELIABILITY ASSETS INVENTORY:**
+RELIABILITY ASSETS INVENTORY:
 
 1. **battery_capacity_benchmarks.png**
    - [cite_start]Table showing mAh storage for S25 Ultra vs. iPhone 15 Pro Max[cite: 8].
