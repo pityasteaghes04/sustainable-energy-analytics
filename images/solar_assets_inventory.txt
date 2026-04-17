@@ -1,18 +1,18 @@
 ---
 RELIABILITY ASSETS INVENTORY:
 
-1. **battery_capacity_benchmarks.png**
-   - [cite_start]Table showing mAh storage for S25 Ultra vs. iPhone 15 Pro Max[cite: 8].
+1. battery_capacity_benchmarks.png – Comparative analysis of storage requirements 
+for flagship mobile devices (e.g., S25 Ultra vs. iPhone 15 Pro Max).
 
-2. **regional_radiation_logic.png**
-   - [cite_start]Seasonal W/m² comparison for Eritrea (High-ROI) vs. Seattle (Stress Test)[cite: 16, 34].
+2. regional_radiation_logic.png – Seasonal irradiance benchmarking: 
+High-Sunlight Equatorial zones vs. High-Latitude Stress Tests.
 
-3. **panel_requirement_distribution.png**
-   - [cite_start]Box plots showing median panels needed while removing visual noise[cite: 46, 55].
+3. panel_requirement_distribution.png – Statistical distribution (box plots) of required 
+solar hardware while filtering out environmental noise.
 
-4. **charging_probability_icdf.png**
-   - [cite_start]Predictive curve showing the 90% success rate for 2 panels in Seattle[cite: 72, 80].
+4. charging_probability_icdf.png – Predictive Reliability Curve: 
+Using ICDF math to forecast a 90% success rate in low-light environments.
 
-5. **agentic_workflow_data_sources.png**
-   - [cite_start]Visual Crossings API and geospatial data ingestion architecture[cite: 91, 92].
+5. governed_workflow_architecture.png – Technical architecture of the data ingestion pipeline, 
+featuring Geospatial API integration and automated fail-safes.
 ---
