@@ -59,8 +59,8 @@ To validate the algorithm’s reliability, this study compares two regions with 
    ```bash
    pip install -r requirements.txt
    ```
-3. **Launch the Analysis:**
-   Open `SolarAnywhere_PityasT.ipynb` in Jupyter or VS Code.
+3. **Execution:**
+   Open `SolarAnywhere_PityasT.ipynb` file in your preferred notebook environment.
 4. **API Access:**
    When prompted for an API key, press **Enter** to use the built-in demo fallback key.
 ```
