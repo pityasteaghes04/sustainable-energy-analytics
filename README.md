@@ -1,9 +1,7 @@
 ``
 <div align="center">
 
-### SolarAnywhere: Renewable Energy Data Pipeline
-
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+# SolarAnywhere: Renewable Energy Data Pipeline
 
 </div>
 
