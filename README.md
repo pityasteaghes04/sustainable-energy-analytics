@@ -1,114 +1,106 @@
----
+To keep your README professional and streamlined, I have removed the emojis and used standard HTML `<div align="center">` tags to center the key headings and project visuals.
+
+I have also structured the image section using Markdown links to your repository's raw files, which is the most reliable way to display images in a GitHub README.
+
+```markdown
+<div align="center">
 
 # SolarAnywhere: Renewable Energy Data Pipeline
+**Transforming geographic irradiance data into precise engineering insights for solar planning.**
 
-This system transforms geographic data into a precise engineering tool for solar planning. By bridging the gap between raw data and real-world utility, it provides high-fidelity energy estimations for informed environmental decision-making.
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+</div>
+
+---
 
 ## Project Overview
-This project analyzes how solar panel energy output varies by location and mobile device battery capacity using real-world meteorological data. It translates complex solar radiation metrics into practical, consumer-facing insights by modeling performance across polar-opposite climate profiles.
+This project analyzes how solar panel energy output varies by location and mobile device battery capacity using real-world meteorological data. By modeling performance across polar-opposite climate profiles, we translate complex solar radiation metrics into practical, consumer-facing insights.
 
-## Comparative Analysis: Seattle vs. Eritrea
-To validate the algorithm’s reliability, this study compares two regions with drastically different solar irradiance patterns:
-* **Seattle, WA (47.6° N):** Characterized by high seasonal variance. The analysis explores "Energy Poverty" during Pacific Northwest winters, where low-irradiance days require a 3-4x larger solar footprint to maintain daily device charging.
-* **Asmara, Eritrea (15.3° N):** Serves as the equatorial control group. With consistent year-round solar flux, this region proves that a minimal 20W setup can achieve nearly 100% reliability, highlighting the impact of latitude on hardware requirements.
-## Project Assets
-* **Technical Presentation:** [View the SolarAnywhere Analysis PDF](./SolarAnywhere_Presentation.pdf) — A deep dive into the engineering logic and data visualizations used in this project.
-### Hardware Specifications
+### Comparative Analysis: Seattle vs. Asmara
+* **Seattle, WA (47.6° N):** Characterized by high seasonal variance. Explores "Energy Poverty" during PNW winters where low-irradiance days require a 3-4x larger solar footprint.
+* **Asmara, Eritrea (15.3° N):** The equatorial control group. Consistent year-round solar flux proves that a minimal 20W setup can achieve nearly 100% reliability.
+
+---
+
+## Hardware Specifications
 
 * **Weather & Solar Data:** [Visual Crossing Weather API](https://www.visualcrossing.com/) (Historical Solar Radiation Flux).
 * **Battery Profiles:** Technical data for modern mobile devices measured in Watt-hours (Wh).
 
+### Device Capacity Reference Guide
+The following Python dictionary maps device models to their battery specifications within the `SolarAnywhere` environment.
+
+```python
+# Hardware Specification Mapping (Calculated at 3.85V nominal voltage)
+device_hardware_profiles = {
+    "OnePlus 13":                {"capacity_mah": 6000, "energy_wh": 23.10, "profile": "High-Density"},
+    "Google Pixel 10 Pro XL":    {"capacity_mah": 5200, "energy_wh": 20.02, "profile": "Large Flagship"},
+    "Samsung Galaxy S25 Ultra":  {"capacity_mah": 5000, "energy_wh": 19.25, "profile": "Ultra-Premium"},
+    "iPhone 16 Pro Max":         {"capacity_mah": 4685, "energy_wh": 18.04, "profile": "Baseline"},
+    "iPhone 16 Pro":             {"capacity_mah": 3582, "energy_wh": 13.79, "profile": "Standard Pro"},
+    "iPhone 16":                 {"capacity_mah": 3561, "energy_wh": 13.71, "profile": "Standard"}
+}
+```
+
 ---
 
-### 📱 Device Capacity Reference Guide
-The following Python dictionary can be used to programmatically map device models to their battery specifications within the `SolarAnywhere` environment.
+<div align="center">
 
-```
-# Hardware Specification Mapping
-# Energy (Wh) calculated at 3.85V nominal voltage
-device_hardware_profiles = {
-    "OnePlus 13": {
-        "capacity_mah": 6000,
-        "energy_wh": 23.10,
-        "profile": "High-Density"
-    },
-    "Google Pixel 10 Pro XL": {
-        "capacity_mah": 5200,
-        "energy_wh": 20.02,
-        "profile": "Large Flagship"
-    },
-    "Samsung Galaxy S25 Ultra": {
-        "capacity_mah": 5000,
-        "energy_wh": 19.25,
-        "profile": "Ultra-Premium"
-    },
-    "iPhone 16 Pro Max": {
-        "capacity_mah": 4685,
-        "energy_wh": 18.04,
-        "profile": "Baseline"
-    },
-    "iPhone 16 Pro": {
-        "capacity_mah": 3582,
-        "energy_wh": 13.79,
-        "profile": "Standard Pro"
-    },
-    "iPhone 16": {
-        "capacity_mah": 3561,
-        "energy_wh": 13.71,
-        "profile": "Standard"
-    }
-}
-
-def calculate_charge_time(device_name, solar_output_watts):
-    """
-    Calculates estimated hours to charge based on solar flux.
-    """
-    device = device_hardware_profiles.get(device_name)
-    if device:
-        return device["energy_wh"] / solar_output_watts
-    return None
 ## Project Visualizations
 
 ### 365-Day Solar Radiation Trend (Seattle 2025-2026)
-![Solar Radiation](images/liveAPI-data.png)
+![Solar Radiation](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/liveAPI-data.png)
 
 ### Reliability Analysis: ICDF Curve
-![ICDF Curve](images/IDF%20Curve.png)
+![ICDF Curve](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/IDF%20Curve.png)
 
-### Distribution of Solar Panels Needed (With Outliers)
-![Panel Distribution](images/Bar%201-Distribution-Outliers.png)
+### Distribution of Solar Panels Needed
+![Panel Distribution](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/Bar%201-Distribution-Outliers.png)
 
 ### Hardware Requirements by Phone Model
-![Requirement Boxplot](images/Bar%202-Requirement-Model.png)
+![Requirement Boxplot](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/Bar%202-Requirement-Model.png)
+
+</div>
+
+---
 
 ## Key Technical Features
-* **Live API Integration:** Fetches the latest 365 days of solar radiation data (**2025–2026**) for real-time accuracy.
-* **Secure Authentication:** Implemented a "Fallback Logic" system that allows for seamless user demos while protecting private API credentials.
-* **Applied Engineering:** Translates raw $W/m^2$ into specific hardware requirements, such as the exact number of panels needed to charge specific devices.
-
-## Summary of Findings
-* **Battery Impact:** Device capacity is the primary driver of hardware requirements; larger batteries require significantly higher panel counts to maintain daily charge cycles.
-* **Geographic Variation:** While Eritrea offers consistent output, Seattle’s seasonal fluctuations necessitate larger solar arrays to prevent energy deficits during low-light months.
-* **Data Fidelity:** Utilizes live 2026 data to ensure the analysis reflects current weather patterns and climate trends.
+* **Live API Integration:** Fetches the latest 365 days of solar radiation data (2025–2026) for real-time accuracy.
+* **Secure Authentication:** Implemented a "Fallback Logic" system that protects private API credentials while allowing for seamless user demos.
+* **Applied Engineering:** Translates raw $W/m^2$ into specific hardware requirements (e.g., exact number of panels needed).
 
 ## Skills Demonstrated
-* **Python:** Pandas (Data Manipulation), NumPy (Numerical Analysis), Matplotlib (Visualization), Geopy (Geospatial Mapping).
-* **Data Visualization:**
-    * **Box-and-Whisker Plots:** Utilized to visualize solar irradiance distribution and identify seasonal outliers beyond simple medians.
-    * **ICDF (Inverse Cumulative Distribution Function) Curves:** Applied to calculate the probability of energy sufficiency on low-light days.
-* **Project Management:** Git/GitHub version control and Agile/Kanban lifecycle management.
+* **Python:** Pandas, NumPy, Matplotlib, Geopy.
+* **Statistical Analysis:** * **Box-and-Whisker Plots:** Identifying seasonal outliers beyond simple medians.
+    * **ICDF Curves:** Calculating the probability of energy sufficiency on low-light days.
+* **Project Management:** Git/GitHub version control and Agile/Kanban methodologies.
+
+---
+
+<div align="center">
 
 ## How to Run
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/pityasteaghes04/SolarAnywhere.git](https://github.com/pityasteaghes04/SolarAnywhere.git)
-   ```
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Execution:**
-   Open `SolarAnywhere_PityasT.ipynb` file in your preferred notebook environment.
-4. **API Access:**
-   When prompted for an API key, press **Enter** to use the built-in demo fallback key.
+
+</div>
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/pityasteaghes04/SolarAnywhere.git](https://github.com/pityasteaghes04/SolarAnywhere.git)
+    ```
+2.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Execution:** Open `SolarAnywhere_PityasT.ipynb` in your preferred notebook environment.
+4.  **API Access:** When prompted for an API key, press **Enter** to use the built-in demo fallback key.
+
+---
+
+<div align="center">
+
+**Technical Presentation:** [View the SolarAnywhere Analysis PDF](https://github.com/pityasteaghes04/SolarAnywhere/blob/main/SolarAnywhere_Presentation.pdf)
+
+</div>
 ```
