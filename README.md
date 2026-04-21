@@ -13,7 +13,12 @@ This project analyzes how solar panel energy output varies by location and mobil
 ### Comparative Analysis: Seattle vs. Asmara
 * **Seattle, WA (47.6° N):** Characterized by high seasonal variance. Explores "Energy Poverty" during PNW winters where low-irradiance days require a 3-4x larger solar footprint.
 * **Asmara, Eritrea (15.3° N):** The equatorial control group. Consistent year-round solar flux proves that a minimal 20W setup can achieve nearly 100% reliability.
+<div align="center">
 
+**Technical Presentation:** [View the SolarAnywhere Analysis PDF](https://github.com/pityasteaghes04/SolarAnywhere/blob/main/SolarAnywhere_Presentation.pdf)
+
+</div>
+```
 ---
 
 ## Hardware Specifications
@@ -94,10 +99,3 @@ The following Python dictionary maps device models to their battery specificatio
 4.  **API Access:** When prompted for an API key, press **Enter** to use the built-in demo fallback key.
 
 ---
-
-<div align="center">
-
-**Technical Presentation:** [View the SolarAnywhere Analysis PDF](https://github.com/pityasteaghes04/SolarAnywhere/blob/main/SolarAnywhere_Presentation.pdf)
-
-</div>
-```
