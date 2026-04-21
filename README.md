@@ -1,4 +1,3 @@
-``
 <div align="center">
 
 # SolarAnywhere: Renewable Energy Data Pipeline
@@ -88,14 +87,13 @@ The following Python dictionary maps device models to their battery specificatio
 </div>
 
 1.  **Clone the repository:**
-    ``
+    
     git clone [https://github.com/pityasteaghes04/SolarAnywhere.git](https://github.com/pityasteaghes04/SolarAnywhere.git)
     
 2.  **Install dependencies:**
-    ``
-    pip install -r requirements.txt
     
+    pip install -r requirements.txt 
+                                     
 3.  **Execution:** Open `SolarAnywhere_PityasT.ipynb` in your preferred notebook environment.
 4.  **API Access:** When prompted for an API key, press **Enter** to use the built-in demo fallback key.
-
 ---
