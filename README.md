@@ -5,7 +5,7 @@
 
 </div>
 
----
+
 
 ## Project Overview
 This project analyzes how solar panel energy output varies by location and mobile device battery capacity using real-world meteorological data. By modeling performance across polar-opposite climate profiles, we translate complex solar radiation metrics into practical, consumer-facing insights.
@@ -18,8 +18,8 @@ This project analyzes how solar panel energy output varies by location and mobil
 **Technical Presentation:** [View the SolarAnywhere Analysis PDF](https://github.com/pityasteaghes04/SolarAnywhere/blob/main/SolarAnywhere_Presentation.pdf)
 
 </div>
-```
----
+
+
 
 ## Hardware Specifications
 
@@ -29,7 +29,7 @@ This project analyzes how solar panel energy output varies by location and mobil
 ### Device Capacity Reference Guide
 The following Python dictionary maps device models to their battery specifications within the `SolarAnywhere` environment.
 
-``
+
 ### Hardware Specification Mapping
 *Calculated at 3.85V nominal voltage.*
 
@@ -44,7 +44,7 @@ The following Python dictionary maps device models to their battery specificatio
 
 > **User Guide:** Don't see your device? Look up your specs on [GSMArena](https://www.gsmarena.com/) and use the formula: $Wh = (mAh \times 3.85) / 1000$
 }
-``
+
 
 ---
 
