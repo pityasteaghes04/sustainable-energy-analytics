@@ -13,14 +13,60 @@ To validate the algorithm’s reliability, this study compares two regions with 
 * **Asmara, Eritrea (15.3° N):** Serves as the equatorial control group. With consistent year-round solar flux, this region proves that a minimal 20W setup can achieve nearly 100% reliability, highlighting the impact of latitude on hardware requirements.
 ## Project Assets
 * **Technical Presentation:** [View the SolarAnywhere Analysis PDF](./SolarAnywhere_Presentation.pdf) — A deep dive into the engineering logic and data visualizations used in this project.
+### Hardware Specifications
 
-  
-## Data Sources
 * **Weather & Solar Data:** [Visual Crossing Weather API](https://www.visualcrossing.com/) (Historical Solar Radiation Flux).
-* **Hardware Specifications:** Technical battery profiles for modern devices (e.g., iPhone 16 Pro at 3,582 mAh, Samsung S25 Ultra) measured in Watt-hours (Wh).
+* **Battery Profiles:** Technical data for modern mobile devices measured in Watt-hours (Wh).
 
+---
 
+### 📱 Device Capacity Reference Guide
+The following Python dictionary can be used to programmatically map device models to their battery specifications within the `SolarAnywhere` environment.
 
+```
+# Hardware Specification Mapping
+# Energy (Wh) calculated at 3.85V nominal voltage
+device_hardware_profiles = {
+    "OnePlus 13": {
+        "capacity_mah": 6000,
+        "energy_wh": 23.10,
+        "profile": "High-Density"
+    },
+    "Google Pixel 10 Pro XL": {
+        "capacity_mah": 5200,
+        "energy_wh": 20.02,
+        "profile": "Large Flagship"
+    },
+    "Samsung Galaxy S25 Ultra": {
+        "capacity_mah": 5000,
+        "energy_wh": 19.25,
+        "profile": "Ultra-Premium"
+    },
+    "iPhone 16 Pro Max": {
+        "capacity_mah": 4685,
+        "energy_wh": 18.04,
+        "profile": "Baseline"
+    },
+    "iPhone 16 Pro": {
+        "capacity_mah": 3582,
+        "energy_wh": 13.79,
+        "profile": "Standard Pro"
+    },
+    "iPhone 16": {
+        "capacity_mah": 3561,
+        "energy_wh": 13.71,
+        "profile": "Standard"
+    }
+}
+
+def calculate_charge_time(device_name, solar_output_watts):
+    """
+    Calculates estimated hours to charge based on solar flux.
+    """
+    device = device_hardware_profiles.get(device_name)
+    if device:
+        return device["energy_wh"] / solar_output_watts
+    return None
 ## Project Visualizations
 
 ### 365-Day Solar Radiation Trend (Seattle 2025-2026)
