@@ -28,14 +28,19 @@ This project analyzes how solar panel energy output varies by location and mobil
 The following Python dictionary maps device models to their battery specifications within the `SolarAnywhere` environment.
 
 ``
-# Hardware Specification Mapping (Calculated at 3.85V nominal voltage)
-device_hardware_profiles = {
-    "OnePlus 13":                {"capacity_mah": 6000, "energy_wh": 23.10, "profile": "High-Density"},
-    "Google Pixel 10 Pro XL":    {"capacity_mah": 5200, "energy_wh": 20.02, "profile": "Large Flagship"},
-    "Samsung Galaxy S25 Ultra":  {"capacity_mah": 5000, "energy_wh": 19.25, "profile": "Ultra-Premium"},
-    "iPhone 16 Pro Max":         {"capacity_mah": 4685, "energy_wh": 18.04, "profile": "Baseline"},
-    "iPhone 16 Pro":             {"capacity_mah": 3582, "energy_wh": 13.79, "profile": "Standard Pro"},
-    "iPhone 16":                 {"capacity_mah": 3561, "energy_wh": 13.71, "profile": "Standard"}
+### Hardware Specification Mapping
+*Calculated at 3.85V nominal voltage.*
+
+| Device Model | Capacity (mAh) | Energy (Wh) | Profile Type |
+| :--- | :---: | :---: | :--- |
+| **OnePlus 13** | 6000 | 23.10 | High-Density |
+| **Google Pixel 10 Pro XL** | 5200 | 20.02 | Large Flagship |
+| **Samsung Galaxy S25 Ultra** | 5000 | 19.25 | Ultra-Premium |
+| **iPhone 16 Pro Max** | 4685 | 18.04 | Baseline |
+| **iPhone 16 Pro** | 3582 | 13.79 | Standard Pro |
+| **iPhone 16** | 3561 | 13.71 | Standard |
+
+> **User Guide:** Don't see your device? Look up your specs on [GSMArena](https://www.gsmarena.com/) and use the formula: $Wh = (mAh \times 3.85) / 1000$
 }
 ``
 
