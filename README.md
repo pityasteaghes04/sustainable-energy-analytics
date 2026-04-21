@@ -11,13 +11,15 @@ This project analyzes how solar panel energy output varies by location and mobil
 To validate the algorithm’s reliability, this study compares two regions with drastically different solar irradiance patterns:
 * **Seattle, WA (47.6° N):** Characterized by high seasonal variance. The analysis explores "Energy Poverty" during Pacific Northwest winters, where low-irradiance days require a 3-4x larger solar footprint to maintain daily device charging.
 * **Asmara, Eritrea (15.3° N):** Serves as the equatorial control group. With consistent year-round solar flux, this region proves that a minimal 20W setup can achieve nearly 100% reliability, highlighting the impact of latitude on hardware requirements.
+## Project Assets
+* **Technical Presentation:** [View the SolarAnywhere Analysis PDF](./SolarAnywhere_Presentation.pdf) — A deep dive into the engineering logic and data visualizations used in this project.
 
+  
 ## Data Sources
 * **Weather & Solar Data:** [Visual Crossing Weather API](https://www.visualcrossing.com/) (Historical Solar Radiation Flux).
 * **Hardware Specifications:** Technical battery profiles for modern devices (e.g., iPhone 16 Pro at 3,582 mAh, Samsung S25 Ultra) measured in Watt-hours (Wh).
 
-## Project Assets
-* **Technical Presentation:** [View the SolarAnywhere Analysis PDF](./SolarAnywhere_Presentation.pdf) — A deep dive into the engineering logic and data visualizations used in this project.
+
 
 ## Project Visualizations
 
