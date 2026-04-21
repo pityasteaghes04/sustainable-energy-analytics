@@ -1,8 +1,4 @@
-To keep your README professional and streamlined, I have removed the emojis and used standard HTML `<div align="center">` tags to center the key headings and project visuals.
-
-I have also structured the image section using Markdown links to your repository's raw files, which is the most reliable way to display images in a GitHub README.
-
-```markdown
+``
 <div align="center">
 
 # SolarAnywhere: Renewable Energy Data Pipeline
@@ -32,7 +28,7 @@ This project analyzes how solar panel energy output varies by location and mobil
 ### Device Capacity Reference Guide
 The following Python dictionary maps device models to their battery specifications within the `SolarAnywhere` environment.
 
-```python
+``
 # Hardware Specification Mapping (Calculated at 3.85V nominal voltage)
 device_hardware_profiles = {
     "OnePlus 13":                {"capacity_mah": 6000, "energy_wh": 23.10, "profile": "High-Density"},
@@ -42,7 +38,7 @@ device_hardware_profiles = {
     "iPhone 16 Pro":             {"capacity_mah": 3582, "energy_wh": 13.79, "profile": "Standard Pro"},
     "iPhone 16":                 {"capacity_mah": 3561, "energy_wh": 13.71, "profile": "Standard"}
 }
-```
+``
 
 ---
 
@@ -86,11 +82,11 @@ device_hardware_profiles = {
 </div>
 
 1.  **Clone the repository:**
-    ```bash
+    ``
     git clone [https://github.com/pityasteaghes04/SolarAnywhere.git](https://github.com/pityasteaghes04/SolarAnywhere.git)
     ```
 2.  **Install dependencies:**
-    ```bash
+    ``
     pip install -r requirements.txt
     ```
 3.  **Execution:** Open `SolarAnywhere_PityasT.ipynb` in your preferred notebook environment.
