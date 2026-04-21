@@ -76,7 +76,7 @@ The following Python dictionary maps device models to their battery specificatio
 * **Python:** Pandas, NumPy, Matplotlib, Geopy.
 * **Statistical Analysis:** * **Box-and-Whisker Plots:** Identifying seasonal outliers beyond simple medians.
     * **ICDF Curves:** Calculating the probability of energy sufficiency on low-light days.
-* **Project Management:** Git/GitHub version control and Agile/Kanban methodologies.
+* **Project Management:** Git/GitHub version control & Microsoft Visual Studio Code
 
 ---
 
