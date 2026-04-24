@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🟢 SolarAnywhere: Global Solar Calculation Tool
+#  SolarAnywhere: Global Solar Calculation Tool
 
 </div>
 
