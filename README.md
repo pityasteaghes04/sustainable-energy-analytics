@@ -1,23 +1,26 @@
 <div align="center">
 
-# SolarAnywhere: Renewable Energy Data Pipeline
+# SolarAnywhere: Global Solar Calculation Tool
 
 </div>
 
-
+## Abstract
+SolarAnywhere is a smart, global solar calculation tool designed to bridge the gap between renewable energy and accessibility. Originally developed as an academic project titled Sustainable Energy Analytics, it has evolved into a robust utility that utilizes a custom internal statistics system and an integrated location finder. By pinpointing any location on Earth, the tool calculates the precise solar hardware requirements for personal electronics, such as mobile phones. Built specifically to empower individuals in regions with limited internet or technological infrastructure, SolarAnywhere provides reliable, data-driven insights to help users design solar setups that meet their specific daily needs regardless of their environment.
 
 ## Project Overview
-This project analyzes how solar panel energy output varies by location and mobile device battery capacity using real-world meteorological data. By modeling performance across polar-opposite climate profiles, we translate complex solar radiation metrics into practical, consumer-facing insights.
+The 2026 update transforms the project from a theoretical model into a functional smart tool. By analyzing how solar panel energy output varies by location and mobile device battery capacity using real-world meteorological data, we translate complex solar radiation metrics into practical, consumer-facing insights.
 
-### Comparative Analysis: Seattle vs. Asmara
-* **Seattle, WA (47.6° N):** Characterized by high seasonal variance. Explores "Energy Poverty" during PNW winters where low-irradiance days require a 3-4x larger solar footprint.
-* **Asmara, Eritrea (15.3° N):** The equatorial control group. Consistent year-round solar flux proves that a minimal 20W setup can achieve nearly 100% reliability.
+### Key Features
+* **Real-World Data:** The tool now pulls in 365 days of live weather and sun data to make sure the math is accurate.
+* **Smart Planning:** It uses predictive modeling to determine the chances of your battery reaching 100%, even in cloudy climates like Seattle.
+* **Extreme Testing:** The system has been validated by comparing sunny regions with cloudy ones to ensure the algorithm works in any climate profile.
+* **Reliable Tech:** Integrated "backup plans" in the code ensure the tool stays running even if specific data streams fail.
+
 <div align="center">
 
-**Technical Presentation:** [View the SolarAnywhere Analysis PDF](https://github.com/pityasteaghes04/SolarAnywhere/blob/main/SolarAnywhere_Presentation.pdf)
+**Project Link:** [View SolarAnywhere Project](https://lnkd.in/gidJQsMq)
 
 </div>
-
 
 
 ## Hardware Specifications
