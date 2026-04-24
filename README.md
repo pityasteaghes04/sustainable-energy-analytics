@@ -1,6 +1,5 @@
 <div align="center">
 
-   # <span style="color:#2e7d32">Solar</span><span style="color:#1976d2">Anywhere</span>: Global Solar Calculation Tool
 [![SolarAnywhere Banner](https://opengraph.githubassets.com/1/refined-github/refined-github)](https://lnkd.in/gidJQsMq)
 
 </div>
