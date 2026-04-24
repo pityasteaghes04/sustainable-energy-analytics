@@ -98,6 +98,6 @@ The following Python dictionary maps device models to their battery specificatio
     
     pip install -r requirements.txt 
                                      
-3.  **Execution:** Open `SolarAnywhere_PityasT.ipynb` in your preferred notebook environment.
+3.  **Execution:** Open `SolarAnywhere_PityasT.ipynb` in VS Code (using the Jupyter Extension) or your preferred notebook environment.
 4.  **API Access:** When prompted for an API key, press **Enter** to use the built-in demo fallback key.
 ---
