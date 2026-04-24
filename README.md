@@ -1,6 +1,7 @@
 <div align="center">
 
 # SolarAnywhere: Global Solar Calculation Tool
+![SolarAnywhere Header](https://raw.githubusercontent.com/refined-github/refined-github/main/extension/assets/icon.png)
 
 </div>
 
