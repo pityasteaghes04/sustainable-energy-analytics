@@ -1,8 +1,9 @@
 <div align="center">
 
-[![SolarAnywhere Banner](https://opengraph.githubassets.com/1/refined-github/refined-github)](https://lnkd.in/gidJQsMq)
-
-</div>
+   <a href="https://lnkd.in/gidJQsMq">
+  <img src="https://raw.githubusercontent.com/refined-github/refined-github/main/extension/assets/social-preview.png" width="100%" alt="SolarAnywhere Banner" />
+   
+</a>
 
 ## Abstract
 SolarAnywhere is a smart, global solar calculation tool designed to bridge the gap between renewable energy and accessibility. Originally developed as an academic project titled Sustainable Energy Analytics, it has evolved into a robust utility that utilizes a custom internal statistics system and an integrated location finder. By pinpointing any location on Earth, the tool calculates the precise solar hardware requirements for personal electronics, such as mobile phones. Built specifically to empower individuals in regions with limited internet or technological infrastructure, SolarAnywhere provides reliable, data-driven insights to help users design solar setups that meet their specific daily needs regardless of their environment.
