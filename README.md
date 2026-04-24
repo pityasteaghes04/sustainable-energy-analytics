@@ -18,7 +18,8 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 <div align="center">
 
-**Project Link:** [View SolarAnywhere Project](https://lnkd.in/gidJQsMq)
+### **Project Presentation (2024-2025)**
+**Detailed Varied Regions Analysis:** [View SolarAnywhere Presentation (PDF)](https://github.com/pityasteaghes04/SolarAnywhere/blob/main/SolarAnywhere_Presentation.pdf)
 
 </div>
 
