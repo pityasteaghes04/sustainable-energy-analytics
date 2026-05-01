@@ -1,0 +1,5 @@
+# make notebooks show up as python code
+*.ipynb linguist-language=Python
+
+# keep line endings clean
+* text=auto
