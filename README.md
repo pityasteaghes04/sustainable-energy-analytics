@@ -5,17 +5,19 @@
 </div>
 
 ## Abstract
-SolarAnywhere is a high-precision, global solar calculation tool designed to bridge the gap between renewable energy and accessibility. Built on a powerful integration of the **Google Maps API** and **Visual Crossing API**, the system features a seamless location engine that resolves any point on Earth—from entire cities to specific landmarks. To demonstrate its power, the tool can pivot from a broad search like "Seattle, WA" to a high-precision target like the **Space Needle**, fetching hyper-local irradiance data instantly. Originally developed as "Sustainable Energy Analytics," it has evolved into a robust utility that calculates exact solar hardware requirements for personal electronics, providing data-driven insights even in regions with limited technological infrastructure.
+SolarAnywhere is a high-precision, global solar calculation tool designed to bridge the gap between renewable energy and accessibility. Built on a powerful integration of the **Google Maps API** and **Visual Crossing API**, the system features a seamless location engine that resolves any point on Earth—from entire cities to specific landmarks. 
+
+To demonstrate its power, the tool can pivot from a broad search like "Seattle, WA" to a high-precision target like the **Space Needle**, fetching hyper-local irradiance data instantly. SolarAnywhere provides reliable, data-driven insights to help users design solar setups that meet their specific daily needs regardless of their environment.
 
 ## Project Overview
-The 2026 update transforms the project from a theoretical model into a functional smart tool. By analyzing how solar panel energy output varies by location and mobile device battery capacity using real-world meteorological data, we translate complex solar radiation metrics into practical, consumer-facing insights.
+The 2026 update transforms the project from a theoretical model into a functional smart tool. By analyzing how solar panel energy output varies by location and device battery capacity, we translate complex solar radiation metrics into practical, consumer-facing insights.
 
-### Key Features
-* **High-Precision Geocoding:** The integrated location finder is so smooth it can identify landmarks by name. Whether you input a general address or a specific site like the **Space Needle**, the system captures the exact coordinates to pull relevant solar data.
-* **Global Versatility:** By comparing regions like the high-irradiance Eritrean highlands to cloudy Seattle, the code proves its reliability across every climate profile on Earth.
-* **Smart Planning & Predictive Modeling:** It uses Inverse Cumulative Distribution Function (ICDF) curves to determine the probability of your battery reaching 100%, ensuring you know the success rate even on low-light days.
-* **Real-World Data:** The tool pulls 365 days of live weather and sun flux data ($W/m^2$) to ensure calculations are grounded in current environmental reality.
-* **System Resilience:** Engineered with "Fallback Logic" to ensure the tool remains operational and secure even if specific data streams are interrupted.
+### 2026 Core Features
+* **Smart Search:** Seamlessly resolves locations and landmarks by name (e.g., Space Needle) for instant, hyper-local data.
+* **Global Precision:** Integrated 365 days of live weather data to calculate exact solar needs anywhere on Earth.
+* **Smart Planning:** Uses predictive modeling to forecast battery success rates in varied climate profiles.
+* **Stress Testing:** Rigorously verified for all-weather reliability across extreme irradiance variances.
+* **System Resilience:** Engineered with fallback logic to ensure reliable hardware efficiency insights.
 
 <div align="center">
 
@@ -23,6 +25,8 @@ The 2026 update transforms the project from a theoretical model into a functiona
 **Detailed Varied Regions Analysis:** [View SolarAnywhere Presentation (PDF)](https://github.com/pityasteaghes04/SolarAnywhere/blob/main/SolarAnywhere_Presentation.pdf)
 
 </div>
+
+---
 
 ## Hardware Specifications
 * **Location Engine:** Google Maps Geocoding API.
@@ -49,9 +53,9 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 ## Project Visualizations
 
-### 365-Day Solar Radiation Trend (Seattle 2025-2026)
+### 365-Day Solar Radiation Trend
 ![Solar Radiation](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/liveAPI-data.png)
-*This figure demonstrates the system's ability to pull live data for precise locations, such as the Space Needle.*
+*Demonstrating system precision using location-specific landmarks.*
 
 ### Reliability Analysis: ICDF Curve
 ![ICDF Curve](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/IDF%20Curve.png)
@@ -65,17 +69,13 @@ The 2026 update transforms the project from a theoretical model into a functiona
 </div>
 
 ---
-## Key Technical Features
-* **Live API Integration:** Fetches the latest 365 days of solar radiation data (2025–2026) for real-time accuracy.
-* **Object-Oriented Logic:** Built to handle diverse inputs, allowing the user to "play around" with locations and devices seamlessly.
-* **Applied Engineering:** Translates raw $W/m^2$ into specific hardware requirements (e.g., exact number of panels needed).
 
-## Skills Demonstrated
-* **Python:** Pandas, NumPy, Matplotlib, Geopy.
-* **Statistical Analysis:**
-    * **Box-and-Whisker Plots:** Identifying seasonal outliers beyond simple medians.
-    * **ICDF Curves:** Calculating the probability of energy sufficiency on low-light days.
-* **Project Management:** Git/GitHub version control & Microsoft Visual Studio Code.
+## Technical Skills Demonstrated
+* **Python Engineering:** Pandas, NumPy, Matplotlib, Geopy, REST API integration.
+* **Statistical Modeling:** * **ICDF Curves:** Probability modeling for energy sufficiency.
+    * **Outlier Analysis:** Identifying seasonal variances using Box-and-Whisker plots.
+* **Systems Design:** Fallback logic for API credentials and data stream continuity.
+* **Project Management:** Git/GitHub version control.
 ---
 <div align="center">
 
@@ -84,13 +84,11 @@ The 2026 update transforms the project from a theoretical model into a functiona
 </div>
 
 1.  **Clone the repository:**
-    
     git clone https://github.com/pityasteaghes04/SolarAnywhere.git
     
 2.  **Install dependencies:**
-    
     pip install -r requirements.txt 
                                     
-3.  **Execution:** Open SolarAnywhere_PityasT.ipynb in VS Code (using the Jupyter Extension) or your preferred notebook environment.
-4.  **API Access:** When prompted for an API key, press **Enter** to use the built-in demo fallback key.
+3.  **Execution:** Open SolarAnywhere_PityasT.ipynb in VS Code or any Jupyter environment.
+4.  **API Access:** Press **Enter** at the prompt to use the built-in demo fallback key.
 ---
