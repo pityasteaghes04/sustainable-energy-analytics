@@ -72,11 +72,14 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 ## Technical Skills Demonstrated
 * **Python Engineering:** Pandas, NumPy, Matplotlib, Geopy, REST API integration.
-* **Statistical Modeling:** * **ICDF Curves:** Probability modeling for energy sufficiency.
+* **Statistical Modeling:**
+    * **ICDF Curves:** Probability modeling for energy sufficiency.
     * **Outlier Analysis:** Identifying seasonal variances using Box-and-Whisker plots.
 * **Systems Design:** Fallback logic for API credentials and data stream continuity.
 * **Project Management:** Git/GitHub version control.
+
 ---
+
 <div align="center">
 
 ## How to Run
@@ -84,11 +87,14 @@ The 2026 update transforms the project from a theoretical model into a functiona
 </div>
 
 1.  **Clone the repository:**
-    git clone https://github.com/pityasteaghes04/SolarAnywhere.git
+    ```bash
+    git clone [https://github.com/pityasteaghes04/SolarAnywhere.git](https://github.com/pityasteaghes04/SolarAnywhere.git)
+    ```
     
 2.  **Install dependencies:**
-    pip install -r requirements.txt 
+    ```bash
+    pip install -r requirements.txt
+    ``` 
                                     
-3.  **Execution:** Open SolarAnywhere_PityasT.ipynb in VS Code or any Jupyter environment.
+3.  **Execution:** Open `SolarAnywhere_PityasT.ipynb` in VS Code or any Jupyter environment.
 4.  **API Access:** Press **Enter** at the prompt to use the built-in demo fallback key.
----
